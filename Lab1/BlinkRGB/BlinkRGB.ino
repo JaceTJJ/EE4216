@@ -2,7 +2,7 @@
 // must install above lib before using this code in Arduino IDE. 
 
 // Define the GPIO pin where the built-in RGB LED is connected
-#define LED_PIN GPIO_NUM_48  // Adjust this pin number to your specific board's configuration
+#define LED_PIN GPIO_NUM_38  // Adjust this pin number to your specific board's configuration
 
 // Define the number of LEDs in the strip. For a single built-in RGB LED, this is 1.
 #define NUM_LEDS 1
@@ -15,8 +15,8 @@ void setup() {
   
   // Initialize the NeoPixel library
   strip.begin();
+  strip.setBrightness(20);
   strip.show(); // Initialize all pixels to 'off'
-  
   Serial.println("Onboard LED blink starts");
 }
 
