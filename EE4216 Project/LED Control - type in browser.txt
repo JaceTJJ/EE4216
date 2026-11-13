@@ -1,0 +1,7 @@
+https://api.thingspeak.com/update?api_key=YOUR_WRITE_API_KEY&field1=3&field2=1&field3=1
+
+
+
+
+
+https://api.thingspeak.com/update?api_key=JAS7N8P31FUM7WFF&field1=2&field2=1&field3=1
